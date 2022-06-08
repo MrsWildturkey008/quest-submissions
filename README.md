@@ -12,6 +12,6 @@
 
 ## Chapter 1 Day 2
 
-#### 1. The 5 Cadence Programming Language Pillars
+#### 1. The 5 Cadence Programming Language Pillars are safety and security, clarity, approachability, developer experience and resource oriented programming.
 
 #### 2. The 5 Pillars could be useful
