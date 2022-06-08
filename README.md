@@ -20,6 +20,9 @@
 
 #### 2. In your opinion, even without knowing anything about the Blockchain or coding, why could the 5 Pillars be useful?
 > Safety & Security: People are looking for safety because if they invest their money. Knowing your investment would be safe would draw more users in.
+
 > Clarity: Clarity is extremely important because people want clear and concise instructions. People don't want to jump through hoops or waste time having to figure out the process. The longer it takes to try and comprehend something, the easier it is for people to give up. Make it easy to understand will draw more users in.
+
 > Approachability: This is important for wanting to draw people/developers in.
+
 > Developer Experience: Developer Experience is important because it allows your developers to find their problems in a timely manner and not have to waste timing reviewing code that's correct. Having things that are easy to use can draw in more developers.
