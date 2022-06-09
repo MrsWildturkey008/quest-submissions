@@ -26,3 +26,12 @@
 > Approachability: This is important for wanting to draw people/developers in.
 
 > Developer Experience: Developer Experience is important because it allows your developers to find their problems in a timely manner and not have to waste timing reviewing code that's correct. Having things that are easy to use can draw in more developers.
+
+----------------------------------------------------------------------------------------------------------------------
+## Chapter 1.5
+
+> #### https://play.onflow.org/beafe918-9cb0-49a2-bb5f-45e9c4cc2099?type=script&id=8fc4c6ba-c555-432f-adeb-ffc72c3bffad&storage=none
+ 
+-----------------------------------------------------------------------------------------------------------------------
+## Chapter 2 Day 1
+
