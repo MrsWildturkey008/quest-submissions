@@ -45,7 +45,7 @@
 ## Chapter 2 Day 2
 
 #### 1. Explain why we wouldn't call changeGreeting in a script.
-
+> Script is used to view data, not modify it. 
 
 #### 2. What does the AuthAccount mean in the prepare phase of the transaction?
 
