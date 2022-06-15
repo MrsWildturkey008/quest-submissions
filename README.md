@@ -44,28 +44,31 @@
 -----------------------------------------------------------------------------------------------------------------------
 ## Chapter 2 Day 2
 
-#### 1. Explain why we wouldn't call changeGreeting in a script.
-> Script is used to view data, not modify it. 
+#### 1. Explain why we wouldn't call ```changeGreeting``` in a script.
+> We wouldn't call changeGreeting in script because script is to view data, not modify it. Greeting is a function and can only be changed in a transaction.
 
-#### 2. What does the AuthAccount mean in the prepare phase of the transaction?
+#### 2. What does the ```AuthAccount``` mean in the ```prepare``` phase of the transaction?
+> The AuthAccount allows access to the data in an account. On Flow, accounts store it's own data, but as a user we use AuthAccount to access our data and then we "sign" the transaction. 
 
-
-#### 3. What is the difference between the prepare phase and the execute phase in the transaction?
+#### 3. What is the difference between the ```prepare``` phase and the ```execute``` phase in the transaction?
 
 
 #### 4. Add two new things inside your contract:
 
 
-> #####  -A variable named myNumber that has type Int (set it to 0 when the contract is deployed)
-> > **
-
-> #####  -A function named updateMyNumber that takes in a new number named newNumber as a parameter that has type Int and updates myNumber to be newNumber
-> > **
-
-#### -Add a script that reads myNumber from the contract
+##### -A variable named ```myNumber``` that has type ```Int``` (set it to 0 when the contract is deployed)
 
 
-#### -Add a transaction that takes in a parameter named myNewNumber and passes it into the updateMyNumber function. Verify that your number changed by running the script again.
+##### -A function named ```updateMyNumber``` that takes in a new number named ```newNumber``` as a parameter that has type ```Int``` and updates ```myNumber``` to be ```newNumber```
+
+
+#### -Add a script that reads ```myNumber``` from the contract
+
+
+#### -Add a transaction that takes in a parameter named ```myNewNumber``` and passes it into the ```updateMyNumber``` function. Verify that your number changed by running the script again.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
+```cadence
+
+```
