@@ -95,10 +95,27 @@
 ````
 
 #### -Add a script that reads ```myNumber``` from the contract
+````cadence import HelloWorld from 0x01
 
+pub fun main(): Int {
+    return HelloWorld.myNumber
+}
+````
 
 #### -Add a transaction that takes in a parameter named ```myNewNumber``` and passes it into the ```updateMyNumber``` function. Verify that your number changed by running the script again.
+````cadence import HelloWorld from 0x01
 
+transaction(myNewNumber: Int) {
+
+  prepare(signer: AuthAccount) {}
+
+  execute {
+    HelloWorld.updateMyNumber(newNumber: myNewNumber)
+    }
+}
+````
+
+<img width="886" alt="Screen Shot 2022-06-16 at 6 05 27 PM" src="https://user-images.githubusercontent.com/106900976/174192426-22e9fd8f-2633-48ec-8221-f8658b2072b5.png">
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
