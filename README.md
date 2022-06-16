@@ -56,7 +56,8 @@
 #### 4. Add two new things inside your contract:
 
 ##### -A variable named ```myNumber``` that has type ```Int``` (set it to 0 when the contract is deployed)
-```cadence pub contract HelloWorld {
+```cadence 
+pub contract HelloWorld {
 
     pub var greeting: String
     pub var myNumber: Int 
@@ -74,7 +75,8 @@
 ````
 
 ##### -A function named ```updateMyNumber``` that takes in a new number named ```newNumber``` as a parameter that has type ```Int``` and updates ```myNumber``` to be ```newNumber```
-```cadence pub contract HelloWorld {
+```cadence 
+pub contract HelloWorld {
 
     pub var greeting: String
     pub var myNumber: Int 
@@ -95,7 +97,8 @@
 ````
 
 #### -Add a script that reads ```myNumber``` from the contract
-````cadence import HelloWorld from 0x01
+````cadence 
+import HelloWorld from 0x01
 
 pub fun main(): Int {
     return HelloWorld.myNumber
@@ -103,7 +106,8 @@ pub fun main(): Int {
 ````
 
 #### -Add a transaction that takes in a parameter named ```myNewNumber``` and passes it into the ```updateMyNumber``` function. Verify that your number changed by running the script again.
-````cadence import HelloWorld from 0x01
+````cadence 
+import HelloWorld from 0x01
 
 transaction(myNewNumber: Int) {
 
