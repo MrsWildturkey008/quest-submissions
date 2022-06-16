@@ -51,16 +51,48 @@
 > The AuthAccount allows access to the data in an account. On Flow, accounts store it's own data, but as a user we use AuthAccount to access our data and then we "sign" the transaction. 
 
 #### 3. What is the difference between the ```prepare``` phase and the ```execute``` phase in the transaction?
-
+> The prepare phase is to access information or data in your account, while the execute phase can call actions and can change data on the on the blockchain.
 
 #### 4. Add two new things inside your contract:
 
-
 ##### -A variable named ```myNumber``` that has type ```Int``` (set it to 0 when the contract is deployed)
+```cadence pub contract HelloWorld {
 
+    pub var greeting: String
+    pub var myNumber: Int 
+
+    pub fun changeGreeting(newGreeting: String) {
+        self.greeting = newGreeting
+    }
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber = 0
+    }
+
+}
+````
 
 ##### -A function named ```updateMyNumber``` that takes in a new number named ```newNumber``` as a parameter that has type ```Int``` and updates ```myNumber``` to be ```newNumber```
+```cadence pub contract HelloWorld {
 
+    pub var greeting: String
+    pub var myNumber: Int 
+
+    pub fun changeGreeting(newGreeting: String) {
+        self.greeting = newGreeting
+    }
+    pub fun updateMyNumber(newNumber: Int) {
+        self.myNumber = newNumber 
+    }
+
+    init() {
+        self.greeting = "Hello, World!"
+        self.myNumber = 0
+    }
+
+}
+````
 
 #### -Add a script that reads ```myNumber``` from the contract
 
@@ -69,6 +101,4 @@
 
 
 ----------------------------------------------------------------------------------------------------------------------------------
-```cadence
 
-```
