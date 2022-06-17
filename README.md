@@ -141,6 +141,8 @@ pub fun main() {
 #### 4. Using this picture below, explain...
 
 > What the error message means:
+> 
 > Why we're getting this error:
+> 
 > How to fix it:
 
